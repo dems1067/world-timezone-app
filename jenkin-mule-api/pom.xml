@@ -29,6 +29,15 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				<cloudHubdeloyment>
+				<username>bekadi</username>
+				<environment>sandbox</environment>
+				<workers>1</workers>
+				<workerType>micro</workerType>
+				<applicationName>worldtimezone-zone</applicationName>
+				<password>muletry</password>
+				<muleVerstion>4.1.4</muleVerstion>
+				</cloudHubdeloyment>
 				</configuration>
 			</plugin>
 		</plugins>
